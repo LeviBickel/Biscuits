@@ -1,0 +1,8 @@
+Biscts Version 1.1 Change Log:
+
+1.) Created new installer package which will support future upgrades and allow more customization.
+2.) Authentication change from the original Active Directory verification to a check of whether the user has the built in Administrator account. This solves the potential vulnerability of storing the user’s password for a short period of time.
+3.)   Added more fields to the database tables to match what is current at SDIN. This change is also reflected in all functions of Biscts.
+4.)   Implemented the change from “Biscuits” to “Biscts”
+5.)   Corrected minor form load issues resulting in previous data staying in the form even after a reload.
+6.)   Handled database connection error by adding a test and message box function which will display error to the user. 
